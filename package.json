@@ -1,0 +1,31 @@
+{
+  "name": "restoapi",
+  "version": "1.0.0",
+  "description": "Resto api endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimalsharma1/RestoAPI.git"
+  },
+  "keywords": [
+    "resto"
+  ],
+  "author": "Bimal Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bimalsharma1/RestoAPI/issues"
+  },
+  "homepage": "https://github.com/bimalsharma1/RestoAPI#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  }
+}
